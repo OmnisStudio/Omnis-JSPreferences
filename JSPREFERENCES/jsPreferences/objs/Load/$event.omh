@@ -1,0 +1,11 @@
+On evClick
+	Do lPrefRow.$define(lPrefName,lPrefValue)
+	
+	Do lPrefRow.$assigncols('omnis_pref1','iPref1')
+	Do $cinst.$clientcommand("loadpreference",lPrefRow) Returns #F
+	
+	Do lPrefRow.$assigncols('omnis_pref2','iPref2')
+	Do $cinst.$clientcommand("loadpreference",lPrefRow) Returns #F
+	
+	Do lPrefRow.$assigncols('omnis_pref3','iPref3')
+	Do $cinst.$clientcommand("loadpreference",lPrefRow) Returns #F
